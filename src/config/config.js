@@ -1,12 +1,7 @@
-const { config } = require("dotenv");
+import { config } from "dotenv";
 
 config({
   path: `.env.${process.env.NODE_ENV || "development"}.local`,
 });
 
-const { PORT, NODE_ENV, API_VERSION } = process.env;
-console.log("🚀 ~ file: config.js:8 ~ PORT:", PORT);
-
-module.exports = {
-  PORT,
-};
+export const { PORT, NODE_ENV, API_VERSION } = process.env;
