@@ -1,21 +1,25 @@
 import express from "express";
 import { API_VERSION, PORT } from "./config/config.js";
-import cookieParser from 'cookie-parser';
-import hpp from 'hpp';
-import helmet from 'helmet'
-import cors from 'cors';
-import displayRoutes from 'express-routemap';
+import cookieParser from "cookie-parser";
+import hpp from "hpp";
+import helmet from "helmet";
+import cors from "cors";
+import displayRoutes from "express-routemap";
 import corsConfig from "./config/cors.config.js";
+
+import superHeroesRoutes from "./routes/superheroes.routes.js";
 
 const PORT_APP = PORT || 5000;
 const API_PREFIX = "api";
 
 const app = express();
 
-app.use(cookieParser())
-app.use(hpp())
-app.use(helmet())
-app.use(cors(corsConfig))
+app.use(express.json());
+app.use(express.urlencoded({ extended: true}));
+app.use(cookieParser());
+app.use(hpp());
+app.use(helmet());
+app.use(cors(corsConfig));
 
 app.use(`/${API_PREFIX}/${API_VERSION}/alive`, (req, res) => {
   res.json({
@@ -23,6 +27,7 @@ app.use(`/${API_PREFIX}/${API_VERSION}/alive`, (req, res) => {
     message: `API IS ALIVE AND UP AND RUNING IN PORT: ${PORT_APP}`,
   });
 });
+app.use(`/${API_PREFIX}/${API_VERSION}/superheroes`, superHeroesRoutes);
 
 app.listen(PORT_APP, () => {
   displayRoutes(app);
