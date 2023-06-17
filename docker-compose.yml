@@ -6,16 +6,9 @@ services:
     container_name: mongo_db_superheroes
     ports:
       - 27017:27017
-    networks:
-      - nodejs-network
     volumes:
       - mongosuperheroes:/data/configdb
       - mongosuperheroes:/data/db
-
-networks:
-  nodejs-network:
-    name: nodejs-network
-    driver: brigde
 
 volumes:
   mongosuperheroes: {}
