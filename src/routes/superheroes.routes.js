@@ -1,32 +1,22 @@
 import { Router } from "express";
+import {
+  createSuperHeroe,
+  deleteSuperHeroeById,
+  getAllSuperHeroes,
+  getSuperHeroesById,
+  updateSuperHeroeById,
+} from "../controllers/superhoure.controller.js";
 
 const router = Router();
 
-router.get("/", (req, res) => {
-  res.json({ message: `get request` });
-});
+router.get("/", getAllSuperHeroes);
 
-router.get("/:sid", (req, res) => {
-  const { sid } = req.params;
-  const { type, age } = req.query;
-  res.json({ message: `get request`, sid, type });
-});
+router.get("/:sid", getSuperHeroesById);
 
-router.post("/", (req, res) => {
-  const body = req.body;
-  console.log(
-    "🚀 ~ file: superheroes.routes.js:11 ~ router.post ~ body:",
-    body
-  );
-  res.json({ message: `post request`, body });
-});
+router.post("/", createSuperHeroe);
 
-router.put("/", (req, res) => {
-  res.json({ message: `put request` });
-});
+router.put("/:sid", updateSuperHeroeById);
 
-router.delete("/", (req, res) => {
-  res.json({ message: `delete request` });
-});
+router.delete("/:sid", deleteSuperHeroeById);
 
 export default router;

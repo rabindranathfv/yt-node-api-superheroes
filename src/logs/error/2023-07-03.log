@@ -1,0 +1,8 @@
+2023-07-03 22:37:51 error: uncaughtException: Super is not defined
+ReferenceError: Super is not defined
+    at file:///home/rabindranath/Documents/Backend/yt-node-api-superheroues/src/controllers/superhoure.controller.js:2:27
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:385:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)

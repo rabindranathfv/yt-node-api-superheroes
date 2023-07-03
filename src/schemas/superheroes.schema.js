@@ -1,12 +1,12 @@
 import mongoose, { Schema } from "mongoose";
 import { powerCollection } from "./powers.schema";
 
-export const superHeroeCollection = 'Superhero';
+export const superHeroeCollection = "Superhero";
 
 const superHeroSchema = new Schema({
   fullName: {
     type: String,
-    required: true
+    required: true,
   },
   alterEgo: {
     type: String,
@@ -16,13 +16,16 @@ const superHeroSchema = new Schema({
     type: Number,
     required: true,
   },
-  powers: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: powerCollection
-    }
-  ]
-})
+  powers: {
+    type: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: powerCollection,
+      },
+    ],
+    default: [],
+  },
+});
 
-const SuperHeroeModel = mongoose.model(superHeroeCollection, superHeroSchema)
+const SuperHeroeModel = mongoose.model(superHeroeCollection, superHeroSchema);
 export default SuperHeroeModel;
