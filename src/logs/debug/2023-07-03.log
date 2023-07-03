@@ -172,3 +172,12 @@
 2023-07-03 22:53:30 info: DB Connection successfully mongodb://
 2023-07-03 22:53:37 info: DB Connection successfully mongodb://
 2023-07-03 22:54:04 info: DB Connection successfully mongodb://
+2023-07-03 23:22:40 info: DB Connection successfully mongodb://
+2023-07-03 23:23:05 info: DB Connection successfully mongodb://
+2023-07-03 23:24:54 info: DB Connection successfully mongodb://
+2023-07-03 23:24:58 info: DB Connection successfully mongodb://
+2023-07-03 23:25:47 info: DB Connection successfully mongodb://
+2023-07-03 23:25:50 info: [0mPOST /api/v1/superheroes [32m200[0m 22.655 ms - 144[0m
+2023-07-03 23:26:33 info: DB Connection successfully mongodb://
+2023-07-03 23:26:36 info: DB Connection successfully mongodb://
+2023-07-03 23:26:39 info: DB Connection successfully mongodb://

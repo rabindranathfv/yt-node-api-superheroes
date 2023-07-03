@@ -1,5 +1,5 @@
 import mongoose, { Schema } from "mongoose";
-import { powerCollection } from "./powers.schema";
+import { powerCollection } from "./powers.schema.js";
 
 export const superHeroeCollection = "Superhero";
 
