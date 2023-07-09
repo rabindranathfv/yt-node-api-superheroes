@@ -95,3 +95,92 @@
 2023-07-04 01:28:27 info: DB Connection successfully mongodb://
 2023-07-04 01:28:54 info: [0mPOST /api/v1/superheroes [32m200[0m 46.924 ms - 26[0m
 2023-07-04 01:37:21 info: DB Connection successfully mongodb://
+2023-07-04 01:40:14 info: DB Connection successfully mongodb://
+2023-07-04 01:40:25 info: DB Connection successfully mongodb://
+2023-07-04 01:40:44 info: DB Connection successfully mongodb://
+2023-07-04 01:41:04 info: DB Connection successfully mongodb://
+2023-07-04 01:41:45 info: DB Connection successfully mongodb://
+2023-07-04 01:41:49 info: DB Connection successfully mongodb://
+2023-07-04 01:41:51 info: DB Connection successfully mongodb://
+2023-07-04 01:42:07 info: DB Connection successfully mongodb://
+2023-07-04 01:42:12 info: DB Connection successfully mongodb://
+2023-07-04 01:42:28 info: DB Connection successfully mongodb://
+2023-07-04 01:42:30 info: DB Connection successfully mongodb://
+2023-07-04 01:42:45 info: DB Connection successfully mongodb://
+2023-07-04 01:43:52 info: DB Connection successfully mongodb://
+2023-07-04 01:44:00 info: DB Connection successfully mongodb://
+2023-07-04 01:44:05 info: DB Connection successfully mongodb://
+2023-07-04 01:44:07 info: DB Connection successfully mongodb://
+2023-07-04 01:45:16 info: DB Connection successfully mongodb://
+2023-07-04 01:45:29 info: DB Connection successfully mongodb://
+2023-07-04 01:45:37 info: DB Connection successfully mongodb://
+2023-07-04 01:45:46 info: DB Connection successfully mongodb://
+2023-07-04 01:45:48 info: DB Connection successfully mongodb://
+2023-07-04 01:45:52 info: DB Connection successfully mongodb://
+2023-07-04 01:45:53 info: DB Connection successfully mongodb://
+2023-07-04 01:46:00 info: DB Connection successfully mongodb://
+2023-07-04 01:46:09 info: DB Connection successfully mongodb://
+2023-07-04 01:46:22 info: DB Connection successfully mongodb://
+2023-07-04 01:46:37 info: DB Connection successfully mongodb://
+2023-07-04 01:46:44 info: DB Connection successfully mongodb://
+2023-07-04 01:46:47 info: DB Connection successfully mongodb://
+2023-07-04 01:46:49 info: DB Connection successfully mongodb://
+2023-07-04 01:46:55 info: DB Connection successfully mongodb://
+2023-07-04 01:46:57 info: DB Connection successfully mongodb://
+2023-07-04 01:47:01 info: DB Connection successfully mongodb://
+2023-07-04 01:47:18 info: DB Connection successfully mongodb://
+2023-07-04 01:47:25 info: DB Connection successfully mongodb://
+2023-07-04 01:47:36 info: DB Connection successfully mongodb://
+2023-07-04 01:47:56 info: DB Connection successfully mongodb://
+2023-07-04 01:48:01 info: DB Connection successfully mongodb://
+2023-07-04 01:48:03 info: DB Connection successfully mongodb://
+2023-07-04 01:48:05 info: DB Connection successfully mongodb://
+2023-07-04 01:48:07 info: DB Connection successfully mongodb://
+2023-07-04 01:48:09 info: DB Connection successfully mongodb://
+2023-07-04 01:48:11 info: DB Connection successfully mongodb://
+2023-07-04 01:48:12 info: DB Connection successfully mongodb://
+2023-07-04 01:48:15 info: DB Connection successfully mongodb://
+2023-07-04 01:48:25 info: DB Connection successfully mongodb://
+2023-07-04 01:48:33 info: DB Connection successfully mongodb://
+2023-07-04 01:48:36 info: DB Connection successfully mongodb://
+2023-07-04 01:48:40 info: DB Connection successfully mongodb://
+2023-07-04 01:48:48 info: DB Connection successfully mongodb://
+2023-07-04 01:48:53 info: DB Connection successfully mongodb://
+2023-07-04 01:49:01 info: DB Connection successfully mongodb://
+2023-07-04 01:49:06 info: DB Connection successfully mongodb://
+2023-07-04 01:49:07 info: DB Connection successfully mongodb://
+2023-07-04 01:49:11 info: DB Connection successfully mongodb://
+2023-07-04 01:49:15 info: DB Connection successfully mongodb://
+2023-07-04 01:49:40 info: DB Connection successfully mongodb://
+2023-07-04 01:49:47 info: DB Connection successfully mongodb://
+2023-07-04 01:49:50 info: DB Connection successfully mongodb://
+2023-07-04 01:49:52 info: DB Connection successfully mongodb://
+2023-07-04 01:49:58 info: DB Connection successfully mongodb://
+2023-07-04 01:50:12 info: DB Connection successfully mongodb://
+2023-07-04 01:50:14 info: DB Connection successfully mongodb://
+2023-07-04 01:50:19 info: DB Connection successfully mongodb://
+2023-07-04 01:50:20 info: DB Connection successfully mongodb://
+2023-07-04 01:50:23 info: DB Connection successfully mongodb://
+2023-07-04 01:50:38 info: DB Connection successfully mongodb://
+2023-07-04 01:52:23 info: DB Connection successfully mongodb://
+2023-07-04 01:53:00 info: DB Connection successfully mongodb://
+2023-07-04 01:53:02 info: DB Connection successfully mongodb://
+2023-07-04 01:53:05 info: DB Connection successfully mongodb://
+2023-07-04 01:53:13 info: DB Connection successfully mongodb://
+2023-07-04 01:53:22 info: DB Connection successfully mongodb://
+2023-07-04 01:53:23 info: DB Connection successfully mongodb://
+2023-07-04 01:53:30 info: DB Connection successfully mongodb://
+2023-07-04 01:53:38 info: DB Connection successfully mongodb://
+2023-07-04 01:53:43 info: DB Connection successfully mongodb://
+2023-07-04 01:53:59 info: DB Connection successfully mongodb://
+2023-07-04 01:54:07 info: DB Connection successfully mongodb://
+2023-07-04 01:54:51 info: [0mGET /api/v1/powers [33m404[0m 3.253 ms - 152[0m
+2023-07-04 01:55:03 info: [0mGET /api/v1/power [32m200[0m 19.397 ms - 37[0m
+2023-07-04 01:56:03 info: [0mPOST /api/v1/powers [33m404[0m 0.642 ms - 153[0m
+2023-07-04 01:56:11 info: [0mPOST /api/v1/power [32m200[0m 34.132 ms - 136[0m
+2023-07-04 01:56:46 info: [0mPOST /api/v1/power [32m200[0m 11.440 ms - 132[0m
+2023-07-04 01:56:51 info: [0mGET /api/v1/power/64a3603e14952adc56d415fd [32m200[0m 7.279 ms - 137[0m
+2023-07-04 01:58:02 info: [0mPUT /api/v1/power/64a3603e14952adc56d415fd [32m200[0m 17.708 ms - 145[0m
+2023-07-04 01:58:22 info: [0mDELETE /api/v1/power/64a3603e14952adc56d415fd [32m200[0m 6.771 ms - 106[0m
+2023-07-04 01:58:27 info: [0mDELETE /api/v1/power/64a3603e14952adc56d415fd [33m404[0m 4.517 ms - 38[0m
+2023-07-04 01:58:36 info: [0mGET /api/v1/power/64a3603e14952adc56d415fd [33m404[0m 4.621 ms - 38[0m

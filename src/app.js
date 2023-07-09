@@ -19,6 +19,7 @@ import corsConfig from "./config/cors.config.js";
 import { logger, stream } from "./utils/logger.js";
 
 import superHeroesRoutes from "./routes/superheroes.routes.js";
+import powersRoutes from './routes/powers.routes.js'
 
 const PORT_APP = PORT || 5000;
 const API_PREFIX = "api";
@@ -51,6 +52,7 @@ app.use(`/${API_PREFIX}/${API_VERSION}/alive`, (req, res) => {
   });
 });
 app.use(`/${API_PREFIX}/${API_VERSION}/superheroes`, superHeroesRoutes);
+app.use(`/${API_PREFIX}/${API_VERSION}/power`, powersRoutes)
 
 app.listen(PORT_APP, () => {
   displayRoutes(app);
